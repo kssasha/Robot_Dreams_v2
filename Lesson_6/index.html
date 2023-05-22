@@ -4,9 +4,37 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lesson_6</title>
+  <title>Lesson 6</title>
 </head>
 <body>
-  <h1>Pruvet</h1>
+  <h1>Hire me</h1>
+  <h3>Contact information</h3>
+  <table border="1" style="border-collapse: collapse;" cellpadding="3">
+    <tr>
+      <th align="left">Phone</th>
+      <td>+420123456789</td>
+    </tr>
+    <tr>
+      <th>Address</th>
+      <td>Somewhere in CZ</td>
+    </tr>
+  </table>
+  <form action="../Lesson_5/index.html">
+    <fieldset>
+      <legend>Contact form</legend>
+      <label for="email">E-mail<span style="color: red;">*</span>:</label>
+      <input type="email" name="email" id="email" placeholder="Your email" required="" style="margin-left: 23px;"><br>
+      <label 
+      for="textarea" style="float:left">Description:&nbsp;</label>
+      <textarea id="textarea" rows="5" cols="21" placeholder="Write something"></textarea><br>
+      <label for="select">Work type:</label>
+      <select name="type_work" id="select" style="margin-left: 8px;">
+        <option value="full_time">Full time</option>
+        <option value="remote_work">Remote work</option>
+        <option value="one-time_project">One-time project</option>
+      </select><br>
+      <input type="submit" name="submit" id="submit" value="Hire me">
+    </fieldset>
+  </form>
 </body>
 </html>
