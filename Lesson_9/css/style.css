@@ -9,7 +9,12 @@ body {
   justify-content: space-between;
 }
 
-.profile-photo {
+img {
+  border: 2px solid rgb(0, 229, 255);
+  padding: 10px;
+}
+
+.profile_photo {
   border-radius: 50%;
   object-fit: cover;
   margin-right: 16px;
@@ -69,21 +74,22 @@ ul li::before {
   background-color: #333;
 }
 
-.bottom {
+.work_experience {
   font-size: 0.8em;
   display: flex;
   border-bottom: 1px solid red;
 }
 
 .bottom_skils_right {
+  font-size: 1.4em;
   display: flex;
   border-bottom: 1px solid red;
   justify-content: end;
 }
 
-img {
-  border: 2px solid rgb(0, 229, 255);
-  padding: 10px;
+.skils_list {
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 table {
