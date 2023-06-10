@@ -52,6 +52,7 @@ nav a {
 }
 
 section {
+  width: 100%;
   background-color: #28282b;
   height: auto;
 }
