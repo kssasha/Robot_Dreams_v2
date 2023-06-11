@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242424;
+  color: antiquewhite;
+  margin: 0;
+  font-family: Montserrat;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto ;
+}
