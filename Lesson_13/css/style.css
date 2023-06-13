@@ -5,6 +5,7 @@
 }
 
 .banner .button {
+  text-decoration: none;
   position: absolute;
   border-radius: 18px;
   top: 90px;
