@@ -3,7 +3,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: fixed;
 }
 
 header {
@@ -50,20 +49,20 @@ nav a {
   font-size: 28px;
 }
 
-.a_gallery {
+nav a:nth-child(2) {
   margin-left: 190px;
 }
 
-section {
+.section_index {
   width: 100%;
   background-color: #28282b;
   height: auto;
 }
 
-.footer {  
+.footer {
   display: flex;
   justify-content: center;
   text-align: center;
   margin-top: 200px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
