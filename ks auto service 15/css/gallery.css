@@ -1,0 +1,22 @@
+main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 3500px;
+  background-color: var(--center-background);
+  width: 1014px;
+  margin: 0 auto;
+}
+
+main img {
+  width: 50%;
+  margin: 0 5px 5px 0;
+}
+
+.h1-gallery {
+  position: relative;
+  text-align: center;
+  top: 15px;
+  margin-bottom: 30px;
+  padding-left: 26px;
+}
