@@ -74,35 +74,22 @@ ul li::before {
   background-color: #333;
 }
 
-<<<<<<< HEAD
-.bottom {
-=======
 .work_experience {
->>>>>>> baea7b2f2099aca41ad9683d795a77bfba1d0c4c
   font-size: 0.8em;
   display: flex;
   border-bottom: 1px solid red;
 }
 
 .bottom_skils_right {
-<<<<<<< HEAD
-=======
   font-size: 1.4em;
->>>>>>> baea7b2f2099aca41ad9683d795a77bfba1d0c4c
   display: flex;
   border-bottom: 1px solid red;
   justify-content: end;
 }
 
-<<<<<<< HEAD
-img {
-  border: 2px solid rgb(0, 229, 255);
-  padding: 10px;
-=======
 .skils_list {
   font-weight: bold;
   font-size: 1.3em;
->>>>>>> baea7b2f2099aca41ad9683d795a77bfba1d0c4c
 }
 
 table {
@@ -111,8 +98,4 @@ table {
 
 th {
   background-color: #46f354;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> baea7b2f2099aca41ad9683d795a77bfba1d0c4c
