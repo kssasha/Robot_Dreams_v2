@@ -1,0 +1,80 @@
+.main-block {
+  background: url(../img/img-general.jpg);
+  background-color: var(--center-background);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 125px;
+}
+
+.head {
+  position: fixed;
+  top: 0;
+  background-color: var(--center-background);
+  z-index: 15;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  align-items: center;
+}
+
+header img {
+  width: 200px;
+  height: 70px;
+}
+
+.img-logo {
+  margin-right: 50px;
+}
+
+.work-hours p {
+  margin: 10px 30px;
+  width: 180px;
+}
+
+.work-adress p {
+  width: 170px;
+  line-height: 22px;
+}
+
+nav {
+  height: 55px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--nav-background);
+  opacity: 0.8;
+}
+
+nav a {
+  color: var(--primary-text-color);;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 0 95px;
+  font-size: 28px;
+}
+
+nav a:hover {
+  background: var(--nav-hover-background);
+}
+
+nav a:nth-child(2) {
+  margin-left: 190px;
+}
+
+.section-index {
+  width: 100%;
+  background-color: var(--center-background);
+  height: auto;  
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
