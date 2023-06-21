@@ -3,8 +3,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: fixed;
-  top: 0;
 }
 
 header {
@@ -12,6 +10,7 @@ header {
   justify-content: space-between;
   width: 1024px;
   align-items: center;
+
 }
 
 header img {

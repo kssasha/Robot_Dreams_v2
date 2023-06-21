@@ -1,0 +1,13 @@
+.light-theme {
+  --nav-background: #6b705c;
+  --nav-hover-background: #a5a58d;
+  --body-background: #a5a58d;
+  --center-background: #b7b7a4;
+  --primary-text-color: #011627;
+  --secondary-text-color: #b8b0b0;
+  --primary-color: #d4a373;
+  --color-hover: #cb997e;
+  --second-color: #a5a58d;
+  --adress-map-border: #c1c1be;
+  --contact-form-textarea-color: #a5a58d;
+}

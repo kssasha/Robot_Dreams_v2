@@ -1,0 +1,26 @@
+* {
+  margin: var(--my-margin);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-background);
+  color: var(--primary-text-color);
+  margin: var(--my-margin);
+  font-family: Montserrat;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+:root {
+  --nav-background: #131313;
+  --nav-hover-background: #1c1c1d;
+  --body-background: #1c1c1d;
+  --center-background: #28282b;
+  --my-padding: 10px 20px;
+  --my-margin: 0;
+}

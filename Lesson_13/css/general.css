@@ -15,3 +15,8 @@ body {
   max-width: 1024px;
   margin: 0 auto ;
 }
+
+:root {
+  --dark-nav-background: #131313;
+  --dark-nav-hover-background: #242424;
+}
