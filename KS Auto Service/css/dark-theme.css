@@ -1,0 +1,13 @@
+.dark-theme {
+  --nav-background: #131313;
+  --nav-hover-background: #1c1c1d;
+  --body-background: #1c1c1d;
+  --center-background: #28282b;
+  --primary-text-color: antiquewhite;
+  --secondary-text-color: #b8b0b0;
+  --primary-color: #a13e2a;
+  --color-hover: #742020;
+  --second-color: #575656;
+  --adress-map-border: #c1c1be;
+  --contact-form-textarea-color: #575656;
+}
